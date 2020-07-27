@@ -1,4 +1,4 @@
-package com.perforb.atcorder.ABC086A;
+package jp.atcoder.PracticeA;
 
 import java.util.Scanner;
 
@@ -8,12 +8,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c = a * b;
+        int c = scanner.nextInt();
+        String s = scanner.next();
 
-        if (c % 2 == 0) {
-            System.out.println("Even");
-        } else {
-            System.out.println("Odd");
-        }
+        System.out.println((a + b + c) + " " + s);
     }
 }

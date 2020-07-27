@@ -1,4 +1,4 @@
-package com.perforb.atcorder.ABC088B;
+package jp.atcoder.ABC088B;
 
 import java.util.Arrays;
 import java.util.List;

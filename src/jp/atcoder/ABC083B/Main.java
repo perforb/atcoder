@@ -1,4 +1,4 @@
-package com.perforb.atcorder.ABC083B;
+package jp.atcoder.ABC083B;
 
 import java.util.Scanner;
 
