@@ -13,6 +13,7 @@ public class Main {
     for (int i = 0; i < numbers.length; i++) {
       numbers[i] = s.nextInt();
     }
+    // int ではコンパイルエラーとなりソートできないため Integer としている
     Arrays.sort(numbers, Collections.reverseOrder());
     for (int number : numbers) {
       if (previous != number) {
