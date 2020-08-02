@@ -15,6 +15,6 @@ public class Utilities {
   }
 
   public static long lcm(long a, long b) {
-    return a * b / gcd(b, a % b);
+    return a * b / gcd(a, b);
   }
 }
