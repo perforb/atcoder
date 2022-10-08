@@ -1,5 +1,6 @@
 package jp.atcoder.ABC049C;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,7 +16,7 @@ public class Main {
     // 例えば dreameraserdreamerase の場合に dreamer を先に消すと aserase となってしまう.
     // また, erase を先に消すと dreamrdream となってしまう.
     // そのため, eraser, erase, dreamer, dream の順に消す必要がある.
-    var words = List.of("eraser", "erase", "dreamer", "dream");
+    List<String> words = Arrays.asList("eraser", "erase", "dreamer", "dream");
     for (String word : words) {
       S = S.replace(word, ""); // 一致した単語をすべて空文字列に置換
     }

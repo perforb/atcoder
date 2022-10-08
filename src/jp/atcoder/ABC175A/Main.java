@@ -10,8 +10,8 @@ public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     // e.g. SSSSSRSRRRRRRSRSSRSRSRS
-    var s = sc.next();
-    var answer = 0;
+    String s = sc.next();
+    int answer = 0;
     for (String w : s.split("S")) {
       answer = Math.max(answer, w.length());
     }
