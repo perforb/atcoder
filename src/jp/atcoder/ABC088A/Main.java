@@ -1,4 +1,4 @@
-package jp.atcoder.ABC088BA;
+package jp.atcoder.ABC088A;
 
 import java.util.Scanner;
 
