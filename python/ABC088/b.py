@@ -1,0 +1,5 @@
+n = int(input())
+a = sorted(list(map(int, input().split())), reverse=True)
+alice = sum([a[i] for i in range(0, len(a), 2)])
+bob = sum([a[i] for i in range(1, len(a), 2)])
+print(alice - bob)
